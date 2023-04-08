@@ -1,18 +1,18 @@
-macro_hyper_j: macro_hyper_j{
+macro_hyperj: macro_hyperj{
 compatible = "zmk,behavior-macro";
-label = "macro_hyper_j";
+label = "macro_hyperj";
 #binding-cells = <0>;
 bindings = <&macro hyper>, <&kp J>;
 };
-macro_hyper_right: macro_hyper_right{
+macro_hyperright: macro_hyperright{
 compatible = "zmk,behavior-macro";
-label = "macro_hyper_right";
+label = "macro_hyperright";
 #binding-cells = <0>;
 bindings = <&macro hyper>, <&kp RIGHT_ARROW>;
 };
-macro_hyper_left: macro_hyper_left{
+macro_hyperleft: macro_hyperleft{
 compatible = "zmk,behavior-macro";
-label = "macro_hyper_left";
+label = "macro_hyperleft";
 #binding-cells = <0>;
 bindings = <&macro hyper>, <&kp LEFT_ARROW>;
 };
