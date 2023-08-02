@@ -2,13 +2,13 @@ macro_windowsright: macro_windowsright{
 compatible = "zmk,behavior-macro";
 label = "macro_windowsright";
 #binding-cells = <0>;
-bindings = <&kt LEFT_WIN>, <&kp RIGHT_ARROW>, <&kt LEFT_WIN>;
+bindings = <&kt RIGHT_WIN>, <&kp RIGHT_ARROW>, <&kt RIGHT_WIN>;
 };
 macro_windowsleft: macro_windowsleft{
 compatible = "zmk,behavior-macro";
 label = "macro_windowsleft";
 #binding-cells = <0>;
-bindings = <&kt LEFT_WIN>, <&kp LEFT_ARROW>, <&kt LEFT_WIN>;
+bindings = <&kt RIGHT_WIN>, <&kp LEFT_ARROW>, <&kt RIGHT_WIN>;
 };
 macro_alfred: macro_alfred{
 compatible = "zmk,behavior-macro";
